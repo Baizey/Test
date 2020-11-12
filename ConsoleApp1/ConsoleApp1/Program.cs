@@ -7,9 +7,12 @@ namespace ConsoleApp1
     {
         public static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
-            using var file = new StreamWriter("filename.txt");
-            file.WriteLine($"Hello world! [{string.Join(", ", args)}]");
+            //using var file = new StreamWriter("filename.txt");
+            
+            var str = $"Hello world! [{string.Join(", ", args)}]";
+            
+            Console.WriteLine(str);
+            //file.WriteLine(str);
         }
     }
 }
