@@ -1,8 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "a8Jh/v2IZqCXh2uoE7pGKsC6bzy/04EeiHUoeSPGrKoJNQ9OOPCVN2+B2q7vcBxd8ZBYJvjE8ApinfWI6QWpFw==",
+  "dgSpecHash": "yqKE+89U7iTITBTRlSNrOttetYalDgj680r0ddOuXyzzJvkVqTQVFJODn+j7XqF4S/22YLptYMhNvlleZx3ymw==",
   "success": true,
   "projectFilePath": "D:\\Github\\Test\\ConsoleApp1\\ConsoleApp1\\ConsoleApp1.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\s154235\\.nuget\\packages\\microsoft.netcore.app.runtime.linux-arm64\\3.1.9\\microsoft.netcore.app.runtime.linux-arm64.3.1.9.nupkg.sha512",
+    "C:\\Users\\s154235\\.nuget\\packages\\microsoft.aspnetcore.app.runtime.linux-arm64\\3.1.9\\microsoft.aspnetcore.app.runtime.linux-arm64.3.1.9.nupkg.sha512",
+    "C:\\Users\\s154235\\.nuget\\packages\\microsoft.netcore.app.host.linux-arm64\\3.1.9\\microsoft.netcore.app.host.linux-arm64.3.1.9.nupkg.sha512"
+  ],
   "logs": []
 }
