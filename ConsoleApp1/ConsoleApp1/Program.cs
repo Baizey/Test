@@ -12,6 +12,8 @@ namespace ConsoleApp1
             {
                 using var file = new StreamWriter($"{args[0]}.txt");
                 file.WriteLine(str);
+                file.Flush();
+                file.Close();
             }
 
             Console.WriteLine(str);
