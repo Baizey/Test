@@ -1,13 +1,6 @@
-*.dll
-*.exe
-*.json
-*.txt
-*.props
-*.targets
-*.cache
-*.info
-*.AssemblyInfo.cs
-*.AssemblyAttributes.cs
-*.pdb
 .idea
 ConsoleApp1/.idea
+ConsoleApp1/bin
+ConsoleApp1/obj
+ConsoleApp1/ConsoleApp1/bin
+ConsoleApp1/ConsoleApp1/obj
