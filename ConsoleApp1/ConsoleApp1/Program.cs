@@ -10,7 +10,9 @@ namespace ConsoleApp1
             var str = $"Hello world! [{string.Join(", ", args)}]";
             if (args.Length > 0)
             {
-                using var file = new StreamWriter($"{args[0]}.txt");
+                var filename = $"{args[0]}.txt";
+                Console.WriteLine(Path.GetFullPath(filename));
+                using var file = new StreamWriter(filename);
                 file.WriteLine(str);
                 file.Flush();
                 file.Close();
